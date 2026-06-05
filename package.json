@@ -5,10 +5,14 @@
   "description": "CV statique genere depuis un fichier Markdown, pret pour Cloudflare Pages.",
   "scripts": {
     "build": "node build.js",
-    "start": "npm run build && node server.js"
+    "start": "npm run build && node server.js",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "engines": {
     "node": ">=18"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "wrangler": "^4.98.0"
+  }
 }
