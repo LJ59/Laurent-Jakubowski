@@ -1,0 +1,14 @@
+{
+  "name": "cv-statique-markdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CV statique genere depuis un fichier Markdown, pret pour Cloudflare Pages.",
+  "scripts": {
+    "build": "node build.js",
+    "start": "npm run build && node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {}
+}
